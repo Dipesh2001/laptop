@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>laptop company</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            /*            transition: 1s linear;*/
+        }
+
+        body {
+            position: relative;
+        }
+
+        nav {
+            z-index: 1;
+            box-shadow: 4px 3px 3px grey;
+        }
+
+        nav a:hover {
+            /*            margin: 50px;*/
+            background: lightgrey;
+        }
+
+        /*        nav ul li a{padding: 1.5rem 1.5rem;}*/
+        .header {
+            /* height: 100vh;
+            width: 100%;*/
+            /* background-image: url('file:///E:/w3schools/www.w3schools.com/w3images/mac.jpg');
+            background-size:cover;  */
+            /*filter: grayscale(30%);  */
+
+        }
+
+        .team div div .card {
+            box-shadow: 5px 5px 4px lightgrey;
+            margin-top: 14px;
+        }
+
+        .gallary img:hover {
+            opacity: 0.7;
+        }
+
+        .pricing div div .card {
+            box-shadow: 5px 5px 4px grey;
+        }
+
+        .faltu {
+            background-image: url('map.jpg');
+            filter: grayscale(60%);
+            height: 90vh;
+            width: 98%;
+        }
+
+        #about div div div p {
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body class="text-secondary" data-spy="scroll" data-target="#navbar">
+    <!--navbar  start-->
+    <h2 class=""></h2>
+    <nav class="navbar navbar-expand-sm fixed-top bg-light p-0" id="navbar">
+        <a href="#" class="navbar-brand text-secondary p-3">LOGO</a>
+        <button class="navbar-toggler text-light bg-dark" data-target="#op" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="op">
+            <ul class="navbar-nav d-flex ml-auto text-secondary text-uppercase pr-1">
+                <li class="nav-item p-0"><a href="#about" class="nav-link text-dark py-3">about</a></li>
+                <li class="nav-item p-0"><a href="#team" class="nav-link text-dark py-3">team</a></li>
+                <li class="nav-item p-0"><a href="#gallary" class="nav-link text-dark py-3">work</a></li>
+                <li class="nav-item p-0"><a href="#pricing" class="nav-link text-dark py-3">pricing</a></li>
+                <li class="nav-item p-0"><a href="#contact" class="nav-link text-dark py-3">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <!--header start-->
+    <div class="header d-flex justify-content-start align-items-center" style="background-image: url(mac.jpg);height: 100vh;width: 100%;" id="header">
+        <!--   <figure class=""style="background-image: url(file:///E:/w3schools/www.w3schools.com/w3images/mac.jpg); filter: grayscale(40%);"> -->
+        <!-- <img src="file:///E:/w3schools/www.w3schools.com/w3images/mac.jpg"class="img-fluid"style="height: 100vh;width: 100%;"> -->
+        <div class="text-white pl-4">
+            <h1 class="display-4"> Start something that matters </h1>
+            <br>
+            <p class="mb-4">Stop wasting valuable time with projects that just isn't you.</p>
+            <button class="btn btn-secondary text-dark btn-lg">Learn more and Start today</button>
+        </div>
+        <!-- </figure> -->
+    </div>
+    <!--header end-->
+    <!-- about start -->
+    <section class="about" id="about">
+        <div class="container-fluid bg-light text-dark d-flex justify-content-center align-items-center flex-column">
+            <h2 class="text-center mt-5 pt-5">ABOUT THE COMPANY</h2><br>
+            <p class="text-center pb-5">Key features of our company</p>
+            <div class="row container text-center mt-4 mb-5">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h4>Responsive</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h4>Content</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h4>Design</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                    <h4>Templates</h4>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about end -->
+    <!-- know start -->
+    <section class="container-fluid mb-5 mt-4" id="know">
+        <div class="row bg-success">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 text-white d-flex justify-content-center align-items-start flex-column">
+                <h2 class="pl-3">We Know Design</h2>
+                <p class="my-3 pl-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore.</p>
+                <button class="btn btn-dark ml-3">View Our Works</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                <img src="phone_buildings.jpg" alt="error" class="img-fluid p-3" style="border-radius: 30px;">
+            </div>
+        </div>
+    </section>
+    <!-- know end -->
+    <!-- team start -->
+    <section class="container-fluid team mb-5" id="team">
+        <h2 class="text-center text-dark mt-4 mb-3">THE TEAM</h2>
+        <p class="text-center text-dark">The one runs this company</p>
+        <div class="row text-dark m-3">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <div class="card shadow-lg">
+                    <img src="team2.jpg" class="img-fluid card-img">
+                    <div class="card-body pl-2">
+                        <h3 class="text-secondary">John Doe</h3>
+                        <h6 class="text-secondary py-4">CEO & Founder</h6>
+                        <p class="">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    </div>
+                    <button class="btn btn-secondary btn-lg m-2 text-dark">contact</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <div class="card shadow-lg">
+                    <img src="team1.jpg" class="img-fluid card-img">
+                    <div class="card-body pl-2">
+                        <h3>Anja Doe</h3>
+                        <h6 class="text-secondary py-4">Art Director</h6>
+                        <p class="">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    </div>
+                    <button class="btn btn-secondary btn-lg m-2 text-dark">contact</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <div class="card shadow-lg">
+                    <img src="team3.jpg" class="img-fluid card-img">
+                    <div class="card-body pl-2">
+                        <h3>Mike Ross</h3>
+                        <h6 class="text-secondary py-4">Web Designer</h6>
+                        <p class="">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    </div>
+                    <button class="btn btn-secondary btn-lg m-2 text-dark">contact</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                <div class="card shadow-lg">
+                    <img src="team4.jpg" class="img-fluid card-img">
+                    <div class="card-body pl-2">
+                        <h3>Dan Star</h3>
+                        <h6 class="text-secondary py-4">Designer</h6>
+                        <p class="">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+                    </div>
+                    <button class="btn btn-secondary btn-lg m-2 text-dark">contact</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- team end -->
+    <!-- patti start -->
+    <section class="container-fluid bg-primary mt-5 pt-5 mb-5 pb-5" id="patti">
+        <div class="row text-white text-center p-3">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <h1 class="display-4">14+</h1>
+                <h6>Partners</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <h1 class="display-4">55+</h1>
+                <h6>Projects Done</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <h1 class="display-4">89+</h1>
+                <h6>Happy Clients</h6>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+                <h1 class="display-4">150+</h1>
+                <h6>Meetings</h6>
+            </div>
+        </div>
+    </section>
+    <!-- patti end -->
+    <!-- gallary start -->
+    <section class="container-fluid gallary" id="gallary">
+        <h2 class="text-center text-dark">OUR WORK</h2><br>
+        <h5 class="text-center text-dark">What we've done for people</h5>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_mic.jpg" alt="error" class=" 
+    		img-fluid my-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_phone.jpg" alt="error" class="img-fluid my-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_drone.jpg" alt="error" class="img-fluid my-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_sound.jpg" alt="error" class="img-fluid my-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_tablet.jpg" alt="error" class="img-fluid my-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_camera.jpg" alt="error" class="img-fluid my-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_typewriter.jpg" alt="error" class="img-fluid my-3">
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <img src="tech_tableturner.jpg" alt="error" class="img-fluid my-3">
+            </div>
+        </div>
+    </section>
+    <!-- gallery end -->
+    <!-- skills start -->
+    <section class="container-fluid bg-success mt-5 pt-5 pb-5" id="skills">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-3 text-dark">
+                <h2 class="pl-3">Our Skills</h2><br>
+                <h6 class="pl-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h6><br>
+                <h6 class="pl-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h6>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 p-3">
+                <h3 class="text-dark">Photography</h3>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" style="width: 50%;">50%</div>
+                </div><br>
+                <h3 class="text-dark">Web Design</h3>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" style="width: 60%;">60%</div>
+                </div><br>
+                <h3 class="text-dark">Photoshop</h3>
+                <div class="progress">
+                    <div class="progress-bar bg-secondary" style="width: 70%;">70%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skills end -->
+    <!-- pricing start -->
+    <section class="container-fluid mb-5 pricing bg-primary pt-5 pb-5" id="pricing">
+        <h1 class="text-center text-white">PRICING</h1>
+        <h4 class="text-center text-white mb-5">Choose a pricing plan that fits your needs.</h4>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card mt-4">
+                    <div class="card-header display-4 bg-dark text-white text-center">Basic</div>
+                    <div class="card-body text-center">
+                        <h4>10GB Storage</h4>
+                        <hr>
+                        <h4>10 Email</h4>
+                        <hr>
+                        <h4>10 Domain</h4>
+                        <hr>
+                        <h4>Endless Support</h4>
+                        <hr>
+                        <h1 class="text-center">10$</h1><br>
+                        <h5 class="text-center">per month</h5>
+                        <hr>
+                        <button class="btn btn-md btn-dark text-white">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card mt-4">
+                    <div class="card-header pt-3 pb-5 display-4 bg-danger text-white text-center">Pro</div>
+                    <div class="card-body text-center vertical-center">
+                        <h4>10GB Storage</h4>
+                        <hr>
+                        <h4>10 Email</h4>
+                        <hr>
+                        <h4>10 Domain</h4>
+                        <hr>
+                        <h4>Endless Support</h4>
+                        <hr>
+                        <h1 class="text-center">10$</h1><br>
+                        <h5 class="text-center">per month</h5>
+                        <hr>
+                        <button class="btn btn-md btn-dark text-white">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-12">
+                <div class="card mt-4">
+                    <div class="card-header display-4 bg-dark text-white text-center">Premium</div>
+                    <div class="card-body text-center">
+                        <h4>10GB Storage</h4>
+                        <hr>
+                        <h4>10 Email</h4>
+                        <hr>
+                        <h4>10 Domain</h4>
+                        <hr>
+                        <h4>Endless Support</h4>
+                        <hr>
+                        <h1 class="text-center">10$</h1><br>
+                        <h5 class="text-center">per month</h5>
+                        <hr>
+                        <button class="btn btn-md btn-dark text-white">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing end -->
+    <!--    contact start-->
+    <section class="container-fluid" id="contact">
+        <h1 class="text-center text-dark">CONTACT</h1><br>
+        <h3 class="text-center text-dark">Lets get in touch. Send us a message:</h3>
+        <div class="address">
+            <h5 class="text-left pl-2">Chicago, US</h5><br>
+            <h5 class="text-left pl-2">Phone: +00 151515</h5><br>
+            <h5 class="text-left pl-2">Email: mail@mail.com</h5><br>
+        </div>
+        <form class="form-group">
+            <input type="text" class="form-control my-3 p-2" placeholder="Name">
+            <input type="text" class="form-control my-3 p-2" placeholder="Email">
+            <input type="text" class="form-control my-3 p-2" placeholder="Subject">
+            <input type="text" class="form-control my-3 p-2" placeholder="Message">
+            <button class="btn btn-lg btn-dark">SEND MESSAGE</button>
+        </form>
+    </section>
+    <!--   contact end-->
+    <!--   faltu start-->
+    <section class="container-fluid faltu m-2 mb-5 mx-auto">
+
+    </section>
+    <!--   faltu end-->
+    <!--footer start-->
+    <section class="container-fluid bg-dark pt-4 pb-4">
+        <footer class="text-center">
+            <a class="btn btn-light mb-3" href="#header" data-target="#navbar">TO TOP</a><br>
+            <h5 class="">Powered BY <a href="#">w3.css</a></h5>
+        </footer>
+    </section>
+    <!--   footer end-->
+    </div>
+    <script src="js/abc.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
